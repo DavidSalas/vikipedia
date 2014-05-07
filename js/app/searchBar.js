@@ -15,6 +15,8 @@ $(document).ready(function ()
       // Enter is pressed
       if (e.keyCode == 13)
       {
+        var submitQuery = require('../main.js');
+//        console.log(x(3))
         submitQuery($("#searchInput").val());
       }
     }, false
