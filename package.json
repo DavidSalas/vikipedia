@@ -1,0 +1,47 @@
+{
+  "name": "vikipedia",
+  "version": "0.0.0",
+  "description": "A visual wikipedia",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidSalas/vikipedia.git"
+  },
+  "keywords": [
+    "wiki",
+    "wikipedia",
+    "d3",
+    "graph"
+  ],
+  "author": "David Salas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidSalas/vikipedia/issues"
+  },
+  "homepage": "https://github.com/DavidSalas/vikipedia",
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "^0.3.1",
+    "gulp-jshint": "^1.6.3",
+    "gulp-sass": "^0.7.2",
+    "gulp-phantom": "0.0.6",
+    "lodash": "^2.4.1",
+    "browserify-shim": "^3.6.0",
+    "gulp-livereload": "^2.1.0",
+    "browser-sync": "^1.1.2",
+    "gulp-shell": "^0.2.8"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "./js/vendor/jquery-ui.js": "jquery-ui"
+  }
+}
