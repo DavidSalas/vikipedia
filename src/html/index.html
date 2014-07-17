@@ -11,13 +11,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
-		<!--[if lte IE 8] browserify>
-        <script src="html5shiv.js"></script><![endif]-->
-		<script src="app.js"></script>
-		<script src="jquery.min.js"></script>
-		<script src="skel.min.js"></script>
-		<script src="skel-panels.min.js"></script>
-		<script src="init.js"></script>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -57,7 +51,7 @@
 							
 							-->
 							<ul>
-                                <li><input placeholder="Search Wikipedia" type="text" name="q" id="wikiSearch" /></li>
+                                <li><input placeholder="Search Wikipedia" type="text" name="q" id="searchInput" /></li>
                                 <li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-user">About Me</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
 							</ul>
@@ -152,5 +146,12 @@
 				
 			</div>
 
+        <!--[if lte IE 8] browserify>
+        <script src="html5shiv.js"></script><![endif]-->
+        <script src="app.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="skel.min.js"></script>
+        <script src="skel-panels.min.js"></script>
+        <script src="init.js"></script>
 	</body>
 </html>

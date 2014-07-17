@@ -6,5 +6,7 @@
 
 var searchUtil = require("./app/searchUtil");
 
+searchUtil.initializeWikiSearchBar();
+
 
 
