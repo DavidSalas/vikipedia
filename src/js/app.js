@@ -4,9 +4,9 @@
 
 'use strict';
 
-var searchUtil = require("./app/searchUtil");
+var searchUtils = require("./app/searchUtils");
 
-searchUtil.initializeWikiSearchBar();
+searchUtils.initializeWikiSearchBar();
 
 
 
