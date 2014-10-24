@@ -14,8 +14,8 @@ var initializeWikiSearchBar = function(){
     function(e){
       // Enter is pressed
       if (e.keyCode == 13){
-        var d3Util = require('./d3Utils');
-        d3Util.initializeNewNodeGraph($("#searchInput").val());
+        var d3Utils = require('./d3Utils');
+        d3Utils.initializeNewNodeGraph($("#searchInput").val());
       }
     }
   );
