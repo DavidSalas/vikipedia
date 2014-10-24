@@ -62,3 +62,8 @@
     stroke: #fff;
     stroke-width: 1.5px;
 }
+
+.wikiGraph {
+    width: 800px;
+    height: 600px;
+}
